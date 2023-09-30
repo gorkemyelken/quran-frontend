@@ -1,0 +1,58 @@
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  max-height: 100vh;
+}
+
+.box-style {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%; 
+  box-sizing: border-box;
+  background-color: white;
+  overflow: auto;
+  height: 90vh;
+}
+
+.sure-label{
+    margin-left: 10px;
+}
+
+select {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.navbar{
+
+    display: flex;
+
+  background: linear-gradient(135deg, rgba(185,185,185,1) 0%, rgba(54,54,54,1) 70%, rgba(0,0,0,1) 100%);
+  height: 10vh;
+  align-items: center;
+}
+
+.ayet-sayısı-label{
+    margin-left: 15px;
+}
+
+.ayet-sayısı{
+    background-color: white;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.languages{
+    margin-left: 20px;
+}
+
+.ana-sayfa-button{
+    width: 8vh;
+    height: 4vh;
+    margin-left: 10px;
+    background-color: #363636;
+    color: white;
+}
+
